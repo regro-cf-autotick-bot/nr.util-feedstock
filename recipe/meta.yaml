@@ -1,13 +1,13 @@
 {% set name = "nr.util" %}
-{% set version = "0.8.12" %}
+{% set version = "0.8.13" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nr.util-{{ version }}.tar.gz
-  sha256: a4549c2033d99d2f0379b3f3d233fd2a8ade286bbf0b3ad0cc7cea16022214f4
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nr_util-{{ version }}.tar.gz
+  sha256: 5eeffa847cd981caa2766c6ff556b684c955f617fb7d65ba6c84720d7656b011
 
 build:
   noarch: python
